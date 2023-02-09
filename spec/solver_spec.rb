@@ -7,6 +7,9 @@ describe Solver do
       factorial = Solver.new
       expect(factorial.factorial(0)).to eql 1
     end
+    it 'returns number 6 to factorial of 3' do
+      factorial = Solver.new
+      expect(factorial.factorial(3)).to eql 6
+    end
   end
 end
-
