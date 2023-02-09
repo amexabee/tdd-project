@@ -10,6 +10,6 @@ class Solver
     result
   end
   def reverse(word)
-    'olleh'
+    word.reverse
   end
 end
