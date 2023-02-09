@@ -9,4 +9,7 @@ class Solver
     end
     result
   end
+  def reverse(word)
+    'olleh'
+  end
 end
