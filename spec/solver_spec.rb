@@ -16,4 +16,11 @@ describe Solver do
       expect { factorial.factorial(-1) }.to raise_error StandardError
     end
   end
+
+  describe '#reverse' do
+    it 'returns olleh when given hello' do
+      solver = Solver.new
+      expect(solver.reverse('hello')).to eql 'olleh'
+    end
+  end
 end
