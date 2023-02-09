@@ -16,6 +16,7 @@ class Solver
 
   def fizzbuzz(number)
     return 'fizz' if (number % 3).zero?
+    return 'buzz' if (number % 5).zero?
 
     number.to_s
   end
