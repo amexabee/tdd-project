@@ -27,4 +27,11 @@ describe Solver do
       expect(solver.reverse('word')).to eql 'drow'
     end
   end
+
+  describe '#fizzbuzz' do
+    it 'returns 7 when given 7' do
+      solver = Solver.new
+      expect(solver.fizzbuzz(7)).to eql '7'
+    end
+  end
 end
