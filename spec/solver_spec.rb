@@ -41,5 +41,9 @@ describe Solver do
       solver = Solver.new
       expect(solver.fizzbuzz(5)).to eql 'buzz'
     end
+    it 'returns fizzbuzz when given 15' do
+      solver = Solver.new
+      expect(solver.fizzbuzz(15)).to eql 'fizzbuzz'
+    end
   end
 end
