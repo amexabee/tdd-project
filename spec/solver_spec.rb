@@ -11,5 +11,9 @@ describe Solver do
       factorial = Solver.new
       expect(factorial.factorial(3)).to eql 6
     end
+    it 'return error to factorial of -1' do
+      factorial = Solver.new
+      expect(factorial.factorial(-1)).to raise Exception
+    end
   end
 end
