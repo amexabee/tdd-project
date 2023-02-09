@@ -59,7 +59,7 @@ In this project, we used test driven development (TDD) approach and implemented 
 Clone project
 
 ```bash
-git clone https://github.com/amexabee/school-library
+git clone https://github.com/amexabee/tdd-project
 
 cd tdd-project
 ```
