@@ -22,5 +22,9 @@ describe Solver do
       solver = Solver.new
       expect(solver.reverse('hello')).to eql 'olleh'
     end
+    it 'returns drow when given word' do
+      solver = Solver.new
+      expect(solver.reverse('word')).to eql 'drow'
+    end
   end
 end
